@@ -1,0 +1,248 @@
+body{  
+    font-family: 'EB Garamond', serif;
+}
+.footerer{
+    position: absolute;
+    display: inline;
+    text-align: right;
+    color: white;
+    margin-left: 52%;
+    margin-top: 2%;
+}
+.navbar-img-adjust
+{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -1%;
+    width:100%;
+    height: auto;
+    max-width: 50%;  
+}
+.navbar-img-adjust-2
+{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+.autoplay img{
+    height:350px;
+}
+.header-img{
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 2.5%;
+    opacity: 0.9;
+    filter: saturate(1.15); 
+}
+.region1{
+    height:250px;
+    background-color: red;
+}
+.region2{
+    height:250px;
+    background-color: blue;
+    /*margin-left: 5px;*/
+}
+.region3{
+    height:250px;
+    background-color: green;
+   /* margin-left: 5px;*/
+}
+.region4{
+    height:250px;
+    background-color: brown;
+    /*margin-left: 5px;*/
+}
+.bottom-container{
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;  
+}
+.bottom-first{
+    /*background-color: #9bc01c;*/
+    color:black;
+}
+.bottom-second{
+    background-color: #9BC01C;
+    color:white;
+    padding-bottom:0.5rem;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;
+    text-align: justify;
+  text-justify: inter-word;
+  border-radius: 0.3rem;
+  height:93%;
+}
+.bottom-third{
+    /*background-color: #9bc01c;*/
+    color:black;
+}
+.fb-expand{
+    height:auto;
+    width:17%;
+    /*transition: 2s;*/
+}
+.fb-expand:hover{
+    background-image: url("../data/img/fb-rect.jpg");
+    max-width:50%;
+}
+            /* Responsive Text*/
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+.nav-link-new{
+    text-decoration: none;
+    color:#3F3F3F;
+    text-align: right;
+    font-size: 2vw;
+}
+.active{
+color:#DCDCDC;   
+}
+.nav-link-new:hover{
+    text-decoration: none;
+    color:#F0F3F4;
+}
+.socials-change img{
+filter: grayscale(35%);
+filter: blur(1px);
+transition: 1s;
+}
+.socials-change img:hover{
+filter: grayscale(0%);
+filter: blur(0px);  
+}
+.region-a{
+    transition: box-shadow 0.4s ease-in-out;
+}
+.region-a:hover{
+    box-shadow: -10px 5px 2px rgba(50,50,50,0.5);
+}
+.region-b{
+    transition: box-shadow 0.4s ease-in-out;
+}
+.region-b:hover{
+    box-shadow: -5px 5px 2px rgba(50,50,50,0.5);
+}
+.region-c{
+    transition: box-shadow 0.4s ease-in-out;
+}
+.region-c:hover{
+    box-shadow: 5px 5px 2px rgba(50,50,50,0.5);
+}
+.region-d{
+    transition: box-shadow 0.4s ease-in-out;
+}
+.region-d:hover{
+    box-shadow: 10px 5px 2px rgba(50,50,50,0.5);
+}
+.region img{
+    transition: all 0.4s ease-in-out;
+}
+.region-a:hover img{
+    transform: rotate(5deg) scale(1.5);
+}
+.region-b:hover img{
+    transform: rotate(3deg) scale(1.5);
+}
+.region-c:hover img{
+    transform: rotate(-3deg) scale(1.5);
+}
+.region-d:hover img{
+    transform: rotate(-5deg) scale(1.5);
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+}
+.gallery{
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding: 4rem 2rem;
+}
+.gallery h5{
+    text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.gallery:hover h5{
+  transform: rotate(3deg) scale(1.5);
+  color:#585B43;
+}
+.gallery-new{
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding: 4rem 2rem;
+}
+.gallery-new h5{
+    text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.gallery-new:hover h5{
+  transform: rotate(3deg) scale(1.5);
+  color:#B6B7B0;
+}
+.share img{
+    transition: all 0.4s ease-in-out;
+}
+.share:hover img{
+    transform: scale(1.5);
+}
+.oil{
+    border-radius: 50%;
+    color:black;
+    transition: all 0.6s ease-in-out;
+}
+.oil:hover{
+    box-shadow: -10px 5px 2px rgba(50,50,50,0.5);
+    transform: scale(1.1);
+}
+.film{
+    border-radius: 50%;
+    color:black;
+    transition: all 0.6s ease-in-out;
+}
+.film:hover{
+    box-shadow: -5px 5px 2px rgba(50,50,50,0.5);
+    transform: scale(1.1);
+}
+.namtoey{
+    border-radius: 50%;
+    color:black;
+    transition: all 0.6s ease-in-out;
+}
+.namtoey:hover{
+    box-shadow: 5px 5px 2px rgba(50,50,50,0.5);
+    transform: scale(1.1);
+}
+.kunal{
+    border-radius: 50%;
+    color:black;
+    transition: all 0.6s ease-in-out;
+}
+.kunal:hover{
+    box-shadow: 10px 5px 2px rgba(50,50,50,0.5);
+    transform: scale(1.1);
+}
